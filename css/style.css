@@ -1,0 +1,145 @@
+* {
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  background-image: url(https://wallpapercave.com/wp/wp2936933.jpg);
+  background-position-y: center;
+  background-size: 34%;
+  width: 100%;
+  height: 65px;
+  border-bottom: 3px solid yellow;
+}
+
+body {
+  background-color: #50bcdf;
+  border-image-width: 100%;
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto Mono', monospace, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 5px 5px;
+  margin-bottom: 20px;
+  border: 1px solid blue;
+  border-radius: 3px;
+  border-bottom: 1px solid blue;
+  border-top: 1px solid blue;
+  text-align: center;
+  z-index: 1;
+  font-weight: bolder;
+}
+
+.select {
+  background-color: transparent;
+  list-style: none;
+  position: absolute;
+  width: 350px;
+  left: -25px;
+  top: 105%;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+  height: 100%;
+}
+
+#alex {
+  color: yellow;
+  position: absolute;
+  top: 33%;
+  left: 2%;
+  z-index: 2;
+}
+
+h1 {
+  display: block;
+  top: -10%;
+  text-align: center;
+  padding: 100px 0px 20px 0px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-decoration: underline 3px rgba(255, 255, 0, 0.349);
+}
+
+h2 {
+  margin: 20px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+p {
+  display: block;
+  text-align: justify;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(65, 58, 58);
+  font-family: sans-serif;
+  line-height: 180%;
+}
+
+h3 {
+  text-align: center;
+}
+/* **********************  */
+footer {
+  line-height: 50px;
+  height: 100px;
+  background: rgb(0, 0, 0);
+  padding: 0px;
+  margin: 20px 0px 0px 0px;
+}
+
+footer ul {
+  float: right;
+  display: table;
+}
+
+footer ul li {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px 10px 0px;
+  width: 10px;
+}
+
+footer #rodape {
+  color: white;
+}
+/* *************** */
+.referencia {
+  border: none;
+  text-align: center;
+  display: inline;
+}
+
+.referencia .oi {
+  border: solid 1px black;
+  border-radius: 4px;
+  width: 150px;
+  color: blue;
+  text-decoration: underline;
+}
+
+footer img{
+  height: 40px;
+  width: 40px;
+}
+
+footer a{
+  padding: 0%;
+  margin: 0%;
+  border: none;
+}
+
+

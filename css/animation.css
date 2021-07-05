@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#toggle {
+  height: 0;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+#toggle:checked + nav .tog {
+  color: red;
+}
+
+#toggle:not(:checked) ~ .container > .select {
+  display: none;
+}
+/* ****************INDEX2****************** */
+
+#toggle:checked + p {
+  transform: translateX(90px);
+}

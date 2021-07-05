@@ -1,0 +1,16 @@
+.slide-form{
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+
+@keyframes slidein{
+
+    from{
+        margin-left: -200%;
+
+    }
+    to{
+        margin-left: 34.5%;
+    }
+}
